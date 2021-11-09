@@ -22,6 +22,7 @@ body {
 
 img {
   display: block;
+  
 }
 
 .list {
@@ -44,13 +45,13 @@ img {
   margin: -1px;
 }
 
-/* Хедер страницы */
+/* =================== Хедер страницы ================= */
 
 .page-header {
   border-bottom: 1px solid var(--header-border-color);
 }
 
-/* Лого */
+/* ====================== Лого ========================= */
 
 .logo {
   display: block;
@@ -69,7 +70,7 @@ img {
   color: var(--accent-color);
 }
 
-/* Навигация сайта */
+/* ================== Навигация сайта ===================*/
 
 .container {
   width: 1200px;
@@ -131,9 +132,7 @@ img {
   color: var(--primary-text-color);
 }
 
-
-
-/* Секция Герой */
+/* =================== Секция Герой ====================== */
 
 .section-hero {
   max-width: 1600px;
@@ -187,7 +186,7 @@ img {
   background: var(--hover-btn-color);
 }
 
-/* Секция Особенности  */
+/* =================== Секция Особенности ================ */
 
 .features {
   display: flex;
@@ -205,22 +204,9 @@ img {
   margin-right: 30px;
 }
 
-.features .item::before {
-    display: block;
-    content: "";
-    height: 120px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(245, 244, 250, 1);
-
-    margin-bottom: 30px;
-
-    outline: #188ce8 dashed;
-}
-
-.features .item:nth-child(1)::before {
-    background-image: url(../images/portfolio1.jpg);
+.features-card {
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
 }
 
 .section-title {
