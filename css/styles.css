@@ -83,10 +83,13 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
+  
 }
 
 .site-nav {
   display: flex;
+  align-items: center;
+  
 }
 
 .site-nav .item + .item {
@@ -95,7 +98,7 @@ img {
 
 .site-nav .link,
 .site-contacts .link {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -130,6 +133,22 @@ img {
 
 .site-contacts .link {
   color: var(--primary-text-color);
+}
+
+/* ====================== Иконка рабочая =============== */
+.button-with-icon{
+  align-items: center;
+}
+
+.button-with-icon:hover, 
+.button-with-icon:active {
+  color: var(--accent-color);
+}
+
+.icon {
+  margin-right: 10px;
+  fill: currentColor;
+
 }
 
 /* =================== Секция Герой ====================== */
