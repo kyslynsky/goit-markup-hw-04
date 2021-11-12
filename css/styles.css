@@ -135,7 +135,6 @@ img {
   color: var(--primary-text-color);
 }
 
-/* ====================== Иконка рабочая =============== */
 .button-with-icon{
   align-items: center;
 }
@@ -145,7 +144,7 @@ img {
   color: var(--accent-color);
 }
 
-.icon {
+.contact-icon {
   margin-right: 10px;
   fill: currentColor;
 
@@ -207,19 +206,19 @@ img {
 
 /* =================== Секция Особенности ================ */
 
-.features {
-  display: flex;
-}
-
 .features-section {
   padding-top: 94px;
 }
 
-.features .item {
+.features-list {
+  display: flex;
+}
+
+.features-item {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.features .item:not(:last-child) {
+.features-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -227,6 +226,20 @@ img {
   background-color: var(--secondary-bg-color);
   border-radius: 4px;
 }
+
+.features-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+
+/* ====================== Секция Примеры работ ================ */
 
 .section-title {
   margin-top: 0;
@@ -240,24 +253,6 @@ img {
   letter-spacing: 0.03em;
 }
 
-.features .title {
-  margin-top: 0;
-  margin-bottom: 10px;
-
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-.features p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/* Секция Примеры работ */
-
 .work-examples {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -270,6 +265,8 @@ img {
 .examples .item:not(:last-child) {
   margin-right: 30px;
 }
+
+
 
 /* Секция Команда */
 
