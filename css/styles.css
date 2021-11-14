@@ -391,6 +391,10 @@ img {
   fill: var(--clients-icon-color);
 }
 
+.client-icon-button:focus .client-icon {
+  fill: var(--accent-color); 
+}
+
 .client-item:hover,
 .client-item:focus {
   outline: 1px solid var(--accent-color);
